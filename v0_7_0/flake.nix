@@ -11,6 +11,7 @@
   inputs.src-graphemes-v0_7_0.ref   = "refs/tags/v0.7.0";
   inputs.src-graphemes-v0_7_0.owner = "nitely";
   inputs.src-graphemes-v0_7_0.repo  = "nim-graphemes";
+  inputs.src-graphemes-v0_7_0.dir   = "";
   inputs.src-graphemes-v0_7_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
